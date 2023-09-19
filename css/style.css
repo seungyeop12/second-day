@@ -41,4 +41,30 @@ body section a {
   color: #fff;
 }
 
+@media screen and (max-width: 999px) {
+  body {
+    background: aqua;
+  }
+  body section h1 {
+    color: aqua;
+  }
+  body section a {
+    background: aqua;
+  }
+}
+@media screen and (max-width: 599px) {
+  body {
+    background: orange;
+  }
+  body section {
+    width: 80%;
+  }
+  body section h1 {
+    color: orange;
+  }
+  body section a {
+    background: orange;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
